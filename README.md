@@ -1,5 +1,5 @@
 # WD_Project
-"Web Design" Class Project - University College Dublin
+"Web Design" Class Project - ERASMUS+ Exchange @ University College Dublin
 
 ### COMP20030 - Project 2020
 
