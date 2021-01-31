@@ -4,14 +4,14 @@
 Project text: https://github.com/Grade0/WD_Project/raw/main/COMP20030-Project-2020.pdf
 
 <hr>
-COMP20030 - Project 2020
-Davide Chen 19207819
+<b> COMP20030 - Project 2020 </b>
+<br>
 
-The project is composed by:
-1 html file
-2 css files
-1 php files
-an a "images" folder
+The project is composed by:    
+- 1 html file    
+- 2 css files    
+- 1 php files    
+- an "images" folder    
 
 My website is based on an existing sushi restaurant in my neighborhood. It's a continuous scrolling website with five sections:
 Home - with the restaurant name, background image, fixed navigation bar, and a "button" to acces the menu;
