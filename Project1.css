@@ -1,0 +1,436 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{margin: 0}
+body, html {height: 100%;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif;}
+
+img{border-style:none}
+
+html{overflow-x:hidden; scroll-behavior: smooth;}
+h1{font-size:36px}
+
+.menu{display: none;}
+.bgimg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("RainbowRoll1.jpg");
+	min-height: 90%;
+	}
+
+.top {
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top: 0;
+	
+}
+
+.bar {
+  width:100%;
+  overflow:hidden;
+  top: 0;
+  padding: 25px 10px;
+}
+
+.center .bar{
+	display:inline-block;
+	width:auto;
+}
+
+.bar .bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0;
+} 
+
+.bar .c-button {
+	white-space:normal;
+}
+
+.bar:before, .bar:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.xlarge {
+	font-size:24px!important;
+}
+
+
+.opacity {
+	opacity: 0.60;
+}
+
+.hover-opacity-off:hover {
+	opacity: 1;
+}
+
+.center {
+	text-align:center!important;
+}
+
+.c-button {
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+.c-button:disabled {
+	cursor:not-allowed;
+	opacity:0.3;
+}
+
+.c-button:hover{
+	color:#000!important;
+	background-color:#ccc!important;
+}
+
+a {
+	background-color:transparent;
+	color: inherit;
+}
+
+a:active, a:hover { 
+	outline-width:0;
+}
+
+.display-container {
+	position:relative;
+}
+
+.grayscale-min {
+	filter:grayscale(35%);
+}
+
+.grayscale {
+	filter:grayscale(50%);
+}
+
+.display-bottomleft {
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.padding{
+	padding:8px 16px!important;
+}
+
+.padding-16 {
+	padding-top:16px!important;
+	padding-bottom:16px!important
+}
+
+.padding-32 {
+	padding-top:32px!important;
+	padding-bottom:32px!important
+}
+
+.padding-48 {
+	padding-top:48px!important;
+	padding-bottom:48px!important;
+}
+
+.padding-64 {
+	padding-top:64px !important;
+	padding-bottom:64px !important;
+}
+
+.tag {
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+}
+
+.display-middle {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+
+.text-white {
+	color: #fff !important;
+}
+
+.text-grey {
+	color:#757575!important;
+}
+
+.xxlarge {
+	font-size: 36px!important;
+}
+
+.container:after, .container:before, .row:after, .row:before {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.container {
+	padding:0.01em 16px;
+}
+
+.content {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:980px;
+}
+
+.border {
+	border:1px solid #ccc!important;
+}
+
+.border-dark-grey {
+	border-color:#616161!important;
+}
+
+.col {
+	float:left;
+	width:100%;
+}
+
+.padding-large {
+	padding:12px 24px !important;
+}
+
+.hover-red:hover {
+	color:#fff!important;
+	background-color:#f44336!important;
+}
+
+.black {
+	color:#fff!important;
+	background-color:#000!important;
+}
+
+.white {
+	color:#000!important;background-color:#fff!important;
+}
+
+.red {
+	color:#fff!important;background-color:#f44336!important;
+}
+
+.grey {
+	color:#000!important;background-color:#9e9e9e!important;
+}
+
+.dark-grey {
+	color:#fff!important;background-color:#616161!important;
+}
+
+.light-grey {color:#000!important;background-color:#f1f1f1!important}
+
+.blue-grey {
+	color:#fff!important;
+	background-color:#607d8b!important
+}
+
+.hover-text-green:hover{color:#4CAF50!important}
+
+.right{float:right!important;}
+
+.round {
+	border-radius:4px;
+}
+
+.jumbo{font-size:64px!important;}
+
+.radius {
+	border-radius: 50%;
+}
+
+.margin-top{margin-top:16px!important;}
+
+.margin-bottom{margin-bottom:16px!important;}
+
+.col.s6{width:49.99999%;}
+
+
+.input {
+	padding:8px;
+	display:block;
+	border:none;
+	border-bottom:1px solid #ccc;
+	width:100%
+}
+
+.block {display:block;width:100%}
+
+.circle {border-radius:50%}
+
+
+@media (min-width:993px) {
+	.hide-large {
+		display:none!important;
+	}
+	.col.s4 {
+	width:28.4%;
+}
+}
+
+@media (max-width:992px) and (min-width:601px) {
+	.hide-medium {
+		display:none!important;
+	}
+}
+
+@media (max-width:600px) {
+	.hide-small {
+		display: none!important;
+	}
+
+body{
+	margin-top: -27px;
+	
+  	padding: 0;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#nav-m
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#nav-m li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+}
+
