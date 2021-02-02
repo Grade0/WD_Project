@@ -253,6 +253,10 @@ a:active, a:hover {
 	color:#fff!important;background-color:#293133!important;
 }
 
+.orange {
+	color:#000!important;background-color:#FFA500!important;
+}
+
 .grey {
 	color:#000!important;background-color:#9e9e9e!important;
 }
@@ -262,6 +266,9 @@ a:active, a:hover {
 }
 
 .light-grey {color:#000!important;background-color:#f1f1f1!important}
+
+.light-blue {color:#000!important;background-color:#ADD8E6!important}
+
 
 .blue-grey {
 	color:#fff!important;
