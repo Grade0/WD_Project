@@ -11,44 +11,59 @@
 <body>
 
   <!-- Navbar (sit on top) -->
-  <nav role="navigation" >
-    <div id="menuToggle" class="hide-large hide-medium">
+  <nav>
 
-      <input type="checkbox" />
-    
-      <span></span>
-      <span></span>
-      <span></span>
-    
-      <ul id="nav-m">
-        <a href="#home"><li>HOME</li></a>
-        <a href="#menu"><li>MENU</li></a>
-        <a href="#about"><li>ABOUT</li></a>
-        <a href="#contact"><li>CONTACT</li></a>
-      </ul>
+    <!-- Hamburger Menu -->
+    <div id="myNav" class="overlay hide-large">
+      <div class="overlay-content">
+        <a href="#home" onclick="openClose(); myFunction()">HOME</a>
+        <a href="#menu" onclick="openClose(); myFunction()">MEN&Ugrave;</a>
+        <a href="#promo" onclick="openClose(); myFunction()">PROMOZIONI</a>
+        <a href="#about" onclick="openClose(); myFunction()">CHI SIAMO</a>
+        <a href="#contact" onclick="openClose(); myFunction()">CONTATTI</a>
+      </div>
     </div>
-	
-	<div class="top hide-small">
-  		<div class="bar xlarge black opacity hover-opacity-off" id="myNavbar" id="bar">
-    		<a href="#home" class="bar-item c-button">HOME</a>
-    		<a href="#menu" class="bar-item c-button">MENU</a>
-    		<a href="#about" class="bar-item c-button">ABOUT</a>
-    		<a href="#contact" class="bar-item c-button">CONTACT</a>
-  		</div>
-	</div>
-</nav>
+
+    <!-- Hamburger Menu Animation Icon-->
+    <div id="myNavbar1" class="hide-large top1 bar grigio opacity">
+      <div id="close" class="container1" onclick="myFunction(); openClose()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <img id="m-logo" src="LOGO.png" class="display-middle " style="transition: 0.4s; width: 100px" alt="logo image">
+    </div>
+
+    <!-- The Main Large Navbar -->
+    <div class="top hide-small hide-medium">
+      <div class="bar xlarge grigio opacity hover-opacity-off" id="myNavbar">
+        <a id="n-logo" href="#home" class="display-left"  style="transition: 0.4s; font-size: 80px; text-decoration: none"><img id="logo" src="LOGO.png" style="transition: 0.4s; vertical-align: middle; width: 110px; margin-left: 60px"></a>
+        <div class="right" style="margin-right:   20px">
+          <a href="#home" class="bar-item c-button round">HOME</a>
+          <a href="#menu" class="bar-item c-button round">MEN&Ugrave;</a>
+          <a href="#promo" class="bar-item c-button round">PROMOZIONI</a>
+          <a href="#about" class="bar-item c-button round">CHI SIAMO</a>
+          <a href="#contact" class="bar-item c-button round">CONTATTI</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   
 <!-- Header with image -->
 	<header class="bgimg display-container grayscale-min" id="home">
-  		<div class="display-bottomleft padding">
-    		<span class="tag xlarge"> Viale Palmiro Togliatti, 1497/A - 00155 ROMA (RM) </span>
-  		</div>
-  		<div class="display-middle center">
-    		<span class="text-white hide-small" style="font-size:100px">ristorante<br>NANAMI</span>
-    		<span class="text-white hide-large hide-medium" style="font-size:60px"><b>ristorante<br>NANAMI</b></span>
-    		<p><a href="#menu" class="c-button xxlarge black"> Let me see the menu </a></p>
-  		</div>
-</header>
+
+    <!-- Small bottom left label -->
+    <div class="display-bottomleft padding">
+      <span class="tag xlarge"> Viale Palmiro Togliatti, 1497/A - 00155 ROMA (RM) </span>
+    </div>
+
+    <!-- Main: centered name and button -->
+    <div class="display-middle center">
+      <span class="text-white hide-small" style="font-size:100px">ristorante<br>NANAMI</span>
+      <span class="text-white hide-large hide-medium" style="font-size:60px"><b>ristorante<br>NANAMI</b></span>
+      <p><a href="#menu" class="c-button xxlarge grigio"> Let me see the menu </a></p>
+    </div>
+  </header>
 
 <!-- Menu Container -->
 <div class="container black padding-64 xxlarge" id="menu">
