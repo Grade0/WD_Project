@@ -5,7 +5,7 @@
 
 <b>PROJECT TEXT:</b> [PDF](https://github.com/Grade0/WD_Project/raw/main/COMP20030-Project-2020.pdf)
 
-<b>See the [[DEMO](https://https://davidechen.it/WD_Project)]
+<b>See the [[DEMO](https://davidechen.it/WD_Project)]
 
 The project is composed by:    
 - 1 html file    
