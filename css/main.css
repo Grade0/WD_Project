@@ -1,11 +1,10 @@
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit;overflow-x:hidden;}
+html{box-sizing:border-box; overflow-x:hidden; scroll-behavior: smooth;}*,*:before,*:after{box-sizing:inherit;}
 body{margin: 0}
 body, html {height: 100%;}
 body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif;}
 
 img{border-style:none}
 
-html{scroll-behavior: smooth;}
 h1{font-size:36px}
 
 .menu{display: none;}
