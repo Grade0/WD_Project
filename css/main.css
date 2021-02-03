@@ -32,13 +32,13 @@ h1{font-size:36px}
   transition: 0.4s;
   font-size: 40px;
 }
-
+/*
 .bar {
   width:100%;
   overflow:hidden;
   top: 0;
   padding: 25px 10px;
-}
+}*/
 
 .center .bar{
 	display:inline-block;
