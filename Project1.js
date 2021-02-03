@@ -79,11 +79,6 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-document.getElementById("myLink").click();
-
-var slideIndex = 0;
-showSlides(slideIndex);
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
