@@ -9,6 +9,7 @@ html{overflow-x: hidden; scroll-behavior: smooth;}
 h1{font-size:36px}
 
 .menu{display: none;}
+
 .bgimg {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -409,12 +410,8 @@ a:active, a:hover {
 	.hide-small {
 		display: none!important;
 	}
+}	
 
-body{
-	margin-top: -27px;
-	
-  	padding: 0;
-}
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
