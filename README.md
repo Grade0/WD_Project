@@ -11,7 +11,7 @@ The project is composed by:
 - 1 HTML file    
 - 2 CSS files
 - 1 JavaScript file
-- 1 PHP files    
+- 1 PHP file    
 - an "images" folder    
 
 My website is based on an existing sushi restaurant in my neighborhood. It's a continuous scrolling website with five sections:
